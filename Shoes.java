@@ -1,9 +1,23 @@
 class Shoes {
-	public static void main(String[] campus) {
-		System.out.println("Shoes' Upper- Step into chic comfort with these women's sneakers. The breathable mesh upper keeps feet cool, while the lace-up closure ensures a secure fit. From college campus to office hustle, and even casual dates – these sneakers suit every stride! Whether you're going out with friends, conquering the office, on your morning runs, or on evening walks, these shoes for women are perfect for every occasion.");
-		System.out.println("Shoes' Outsole- Let's talk Pillo Foam sole – your go-to for Comfort and a stride that's pure bliss. The base of these women's shoes is made to offer impeccable impact cushioning with every landing. From dashing between meetings to strolling through the park, these shoes have your comfort covered.");
-		System.out.println("Shoes' Insole- Embrace the personalized fit offered by the Memory Foam insole of our women's shoes. They perfectly adapt to your foot shape while providing exceptional arch support. Whether walking or running, the cushioned insole guarantees a luxurious and tailor-made experience. These casual shoes are thoughtfully designed to elevate your every step, enhancing support and ensuring an unparalleled stride.");
-		System.out.println("Style Your Shoes- Pair these women's sneakers with leggings and a hoodie for a sporty look, or throw them on with jeans and a graphic tee for casual chic. These cool shoes offer versatility to match your every mood.");
-		System.out.println("Clean Your Shoes- Keeping these cool shoes clean is a breeze. Wipe them with a damp cloth for daily maintenance. For deeper cleaning, use mild soap and water. And they are ready to rock your style, any day");
+	
+	static    String shoeName = "Aldo";
+	static	int size = 8;
+	static	String colour = "White";
+	static	int price = 5500;
+	static	String type = "Sneakers";
+	
+	public static void main(String[] myntra) {
+		
+		System.out.println("Shoes Started");
+		
+		
+		
+		System.out.println("The Shoe Name is " + shoeName);
+		System.out.println("The Shoe Size is " + size);
+		System.out.println("The Shoe Colour is " + colour);
+		System.out.println("The Shoe Price is " + price);
+		System.out.println("The Shoe Type is " + type);
+		
+		System.out.println("Shoes Ended");
 	}
 }
