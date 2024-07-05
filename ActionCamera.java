@@ -1,11 +1,13 @@
 class ActionCamera{
+	static	String brand = "IZI";
+	static	int price = 9499;
+	static	String memoryType = "Micro SD";
+	static	String sensor = "CMOS";
+		
 	public static void main(String[] camera){
 		System.out.println("Start of Main");
 		
-		String brand = "IZI";
-		int price = 9499;
-		String memoryType = "Micro SD";
-		String sensor = "CMOS";
+		
 		
 		System.out.println("The brand of the camera is "+brand);
 		System.out.println("The price is "+price);

@@ -1,13 +1,15 @@
 class BoatEarbuds{
+	
+	static    String brand = "Boat";
+	static	int price = 1500;
+	static	String material = "Plastic";
+	static	String uses = "Gaming";
+	static	int range = 10;
+		
 	public static void main(String[] earbuds){
 		System.out.println("Start of Main");
 		
-		String brand = "Boat";
-		int price = 1500;
-		String material = "Plastic";
-		String uses = "Gaming";
-		int range = 10;
-
+		
 		System.out.println("The Brand of the Earbud is "+brand);
 		System.out.println("The price is "+price);
 		System.out.println("The material used is "+material);

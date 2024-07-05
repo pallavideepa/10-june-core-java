@@ -1,13 +1,14 @@
 class BedSheet {
+	
+	static    String brand = "HomeMonde";
+	static	String colour = "Tana";
+	static	String material = "Cotton";
+	static	String pattern = "Floral";
+	static	String style = "Traditional";
+		
 	public static void main(String[] amazon) {
 		
 		System.out.println("BedSheet Started");
-		
-		String brand = "HomeMonde";
-		String colour = "Tana";
-		String material = "Cotton";
-		String pattern = "Floral";
-		String style = "Traditional";
 		
 		
 		System.out.println("The BedSheet Brand is " + brand );

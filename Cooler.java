@@ -1,13 +1,14 @@
 class Cooler {
+	
+	static	String brand = "Crompton";
+	static	String colour = "White & Teal";
+	static	String mountingType = "Freestanding";
+	static	String airFlowCapacity = "1 Cubic Feet Per Minute";
+	static	String controlsType = "Remote";
+		
 	public static void main(String[] amazon) {
 		
 		System.out.println("Cooler Started");
-		
-		String brand = "Crompton";
-		String colour = "White & Teal";
-		String mountingType = "Freestanding";
-		String airFlowCapacity = "1 Cubic Feet Per Minute";
-		String controlsType = "Remote";
 		
 		
 		System.out.println("The Cooler Brand is " + brand );

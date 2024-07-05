@@ -1,15 +1,15 @@
 class AlarmClock {
+	
+	static    String brand = "Ikea";
+	static	String colour = "Black";
+	static	String displayType = "Analog";
+	static	String style = "Art Deco";
+	static	String productDimensions = "12.7W x 20.8H Centimeters";
+	static	String specialFeature = "Alarm";
+		
 	public static void main(String[] amazon) {
 		
 		System.out.println("AlarmClock Started");
-		
-		String brand = "Ikea";
-		String colour = "Black";
-		String displayType = "Analog";
-		String style = "Art Deco";
-		String productDimensions = "12.7W x 20.8H Centimeters";
-		String specialFeature = "Alarm";
-		
 		
 		
 		System.out.println("The AlarmClock Brand is " + brand );

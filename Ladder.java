@@ -1,14 +1,15 @@
 class Ladder {
+	
+	static	String brand = "Trendy";
+	static	String colour = "A- PPCP Step Yellow";
+	static	String material = "Metal";
+	static	String specialFeature = "Anti Slip, Heavy Duty, Foldable";
+	static	String productDimensions = "46W x 145H Centimeters";
+		
+		
 	public static void main(String[] amazon) {
 		
 		System.out.println("Ladder Started");
-		
-		String brand = "Trendy";
-		String colour = "A- PPCP Step Yellow";
-		String material = "Metal";
-		String specialFeature = "Anti Slip, Heavy Duty, Foldable";
-		String productDimensions = "46W x 145H Centimeters";
-		
 		
 		System.out.println("The Ladder Brand is " + brand );
 		System.out.println("The Ladder Colour is " + colour);

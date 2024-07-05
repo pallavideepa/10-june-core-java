@@ -1,11 +1,12 @@
 class GoCAM{
+	
+	static	String brand = "Digitek";
+	static	int price = 8499;
+	static	String memoryType = "Micro SD";
+	static	String sensor = "CMOS";
+		
 	public static void main(String[] cam){
 		System.out.println("Start of Main");
-		
-		String brand = "Digitek";
-		int price = 8499;
-		String memoryType = "Micro SD";
-		String sensor = "CMOS";
 		
 		System.out.println("The brand of the camera is "+brand);
 		System.out.println("The price is "+price);

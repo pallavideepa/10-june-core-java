@@ -1,11 +1,14 @@
 class Cctv{
+	
+	static	String brand = "CP PLUS";
+	static	int price = 1400;
+	static	String modelName = "Wireless";
+	static  String controllerType = "Android";
+		
 	public static void main(String[] camera){
 		System.out.println("Start of Main");
 		
-		String brand = "CP PLUS";
-		int price = 1400;
-		String modelName = "Wireless";
-		String controllerType = "Android";
+		
 		
 		System.out.println("The brand of the CCTV is "+brand);
 		System.out.println("The price of the CCTV is "+price);

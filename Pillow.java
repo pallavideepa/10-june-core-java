@@ -1,17 +1,17 @@
 class Pillow {
+	
+	static    String brand = "Sleepyhead";
+	static	String colour = "Grey & White";
+	static	String shape = "Rectangular";
+	static	String fillMaterial = "Hollow Fiber";
+	static	String type = "Bed Pillow";
+	static	int size = 1;
+		
 	public static void main(String[] amazon) {
 		
 		System.out.println("Pillow Started");
 		
-		String brand = "Sleepyhead";
-		String colour = "Grey & White";
-		String shape = "Rectangular";
-		String fillMaterial = "Hollow Fiber";
-		String type = "Bed Pillow";
-		int size = 1;
-		
-		
-		
+				
 		System.out.println("The Pillow Brand is " + brand );
 		System.out.println("The Pillow Colour is " + colour);
 		System.out.println("The Pillow Shape is " + shape);

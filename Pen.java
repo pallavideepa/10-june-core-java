@@ -1,14 +1,14 @@
 class Pen {
+	
+	static	String brand = "Parker";
+	static	String colour = "Gold";
+	static	String writingInstrumentForm= "Roller Ball Pen";
+	static	String inkColour = "Blue";
+	static	String ageRange  = "Adult";
+		
 	public static void main(String[] amazon) {
 		
 		System.out.println("Pen  Started");
-		
-		String brand = "Parker";
-		String colour = "Gold";
-		String writingInstrumentForm= "Roller Ball Pen";
-		String inkColour = "Blue";
-		String ageRange  = "Adult";
-		
 		
 		System.out.println("The Pen  Brand is " + brand );
 		System.out.println("The Pen  Colour is " + colour);

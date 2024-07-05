@@ -1,13 +1,14 @@
 class Geyser {
+	
+	static	String brand = "Crompton";
+	static	String colour = "White";
+	static	String wattage = "HEPA Filter";
+	static	String specialFeature = "Auto Restart, Fast Heating";
+	static	String productDimensions = "Remote";
+		
 	public static void main(String[] amazon) {
 		
 		System.out.println("Geyser Started");
-		
-		String brand = "Crompton";
-		String colour = "White";
-		String wattage = "HEPA Filter";
-		String specialFeature = "Auto Restart, Fast Heating";
-		String productDimensions = "Remote";
 		
 		
 		System.out.println("The Geyser Brand is " + brand );

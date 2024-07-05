@@ -1,14 +1,15 @@
 class Bottle {
+	
+	static    String brand = " Borosil";
+	static	String colour =	 "Black";
+	static	String specialFeature = "Freezer Safe";
+	static	String style = "Coffeemate";
+	static	String theme = "Fantasy";
+	static	String recommendedUsesForProduct = "Modern";
+		
 	public static void main(String[] amazon) {
 		
 		System.out.println("Bottle Started");
-		
-		String brand = " Borosil";
-		String colour =	 "Black";
-		String specialFeature = "Freezer Safe";
-		String style = "Coffeemate";
-		String theme = "Fantasy";
-		String recommendedUsesForProduct = "Modern";
 		
 		
 		System.out.println("The Bottle Brand is " + brand );

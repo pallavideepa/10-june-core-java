@@ -1,14 +1,16 @@
 class Showers {
+	
+	static	String brand = "Hindware";
+	static	String finishType = "Polished";
+	static	String shape = "Round";
+	static	String material = "Acrylonitrile Butadiene Styrene";
+	static	String settingType = "Rain";
+	static	String style = "Basic";
+		
 	public static void main(String[] amazon) {
 		
 		System.out.println("Showers Started");
 		
-		String brand = "Hindware";
-		String finishType = "Polished";
-		String shape = "Round";
-		String material = "Acrylonitrile Butadiene Styrene";
-		String settingType = "Rain";
-		String style = "Basic";
 		
 		
 		

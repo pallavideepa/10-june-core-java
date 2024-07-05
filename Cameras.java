@@ -1,11 +1,14 @@
 class Cameras{
+	
+	static	String brand = "Sony";
+	static	int price = 188990;
+	static	String compatibleMounting = "Sony-E";
+	static	String sensor = "CMOS";
+		
 	public static void main(String[] camera){
 		System.out.println("Start of Main");
 		
-		String brand = "Sony";
-		int price = 188990;
-		String compatibleMounting = "Sony-E";
-		String sensor = "CMOS";
+		
 		
 		System.out.println("The brand of the camera is "+brand);
 		System.out.println("The price is "+price);

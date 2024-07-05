@@ -1,13 +1,14 @@
 class HeadPhone {
+	
+	static   String brand = "Sony";
+	static	String colour = "Off-White";
+	static	String earPlacement= "Over Ear";
+	static	String formFactor = "Over Ear";
+	static	String noiseControl = "Sound Isolation";
+		
 	public static void main(String[] amazon) {
 		
 		System.out.println("HeadPhone Started");
-		
-		String brand = "Sony";
-		String colour = "Off-White";
-		String earPlacement= "Over Ear";
-		String formFactor = "Over Ear";
-		String noiseControl = "Sound Isolation";
 		
 		
 		System.out.println("The HeadPhone Brand is " + brand );

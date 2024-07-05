@@ -1,13 +1,16 @@
 class Refrigerator{
+	
+	static	String brand = "Samsung";
+	static	int price = 43000;
+	static	int capacity = 363;
+	static	String configuration = "Freezer-on-Top";
+	static	int energyStar = 3;
+
+
 	public static void main(String[] refrigerator){
 		System.out.println("Start of Main");
 		
-		String brand = "Samsung";
-		int price = 43000;
-		int capacity = 363;
-		String configuration = "Freezer-on-Top";
-		int energyStar = 3;
-
+		
 		System.out.println("The Brand of Refrigerator is "+brand);
 		System.out.println("The Price is "+price);
 		System.out.println("The capacity is "+capacity+" liters");

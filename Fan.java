@@ -1,13 +1,14 @@
 class Fan {
+	
+	static	String brand = "Bajaj";
+	static	String colour = "Brown";
+	static	String electricFanDesign = "Ceiling Fan";
+	static	String style = "Star Rated";
+	static	String productDimensions = "Remote";
+		
 	public static void main(String[] amazon) {
 		
 		System.out.println("Fan Started");
-		
-		String brand = "Bajaj";
-		String colour = "Brown";
-		String electricFanDesign = "Ceiling Fan";
-		String style = "Star Rated";
-		String productDimensions = "Remote";
 		
 		
 		System.out.println("The Fan Brand is " + brand );
