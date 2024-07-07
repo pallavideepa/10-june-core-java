@@ -1,0 +1,38 @@
+class SuperMarket
+{
+
+	public static void main(String[] dMart){
+		
+	System.out.println("Main Started");
+		
+		String name = "dMart";
+		String groceries[] ={"Wheat" , "Rice" , "GramFlour" , "RagiFlour" , "Sugar" , "Salt" , "SunPureOil" , "Butter" , "Cashew" , "DhaniaPwoder" , "GramMasala" , "Jagery" , "ChatMasala"};
+		String vegitables[] ={"Carrot" , "Beans" , "Onion" , "Pottato" , "Beetroot" , "Drumstick" , "Ginger" , "Garlic" , "Capcicum" , "Lemon" , "CaliFlower" , "Cabage" , "Brinjal" , "Cucumber"};
+		String snacks[] ={"Lays" , "Bingo" , "Pringals" , "Doritos" , "Kurkure" , "MognDal" , "BananaChips" , "Pasta" , "SoyaSticks" , "LemorFoods"};
+		String fruits[] = {"Apple" , "Banana" , "Charry" , "DraygunFruit" , "Orange" , "Mango" , "Coconut" , "Pineapple" , "Watermelon" , "Peach" , "Avocado" , "Pomegranate" , "Pear" , "Graps" , "Plum" , "Kiww"};
+		String cosmetics[] = {"LOréal Paris" , "Lakme" , "Revlon" , "Clinique" , "Beiersdorf" , "Procter & Gamble" , "Dove" , "Lotus Herbals" , "MAC" , "Maybelline" , "Avon" , "Unilever" , "Clinique" , "SUGAR Cosmetics" , "NIVEA"};
+		String chocolates[] = {"Milk Chocolate" , "Dark Chocolate" , "White Chocolate" , "Ghirardelli Intense Dark" , "Godiva Chocolatier" , "Ferrero Rocher" , "Hersheys Milk Chocolate" , "Toblerone" , "Nestle Crunch" , "Kit Kat" , "Ruby Chocolate" , "Bittersweet Chocolate" , "Semisweet Chocolate" , "Couverture Chocolate" , "Cadbury Dairy Milk"};
+		String icecreams[] = {"Chocolate" , "Gelato" , "Kulfi" , "Sherbet" , "Sorbet" , "FrozenYogurt" , "Philadelphia" , "SoftServe" , "Rolled" , "SnowCream" , "Mochi" , "ItalianIce" , "Dondurma" , "Venila" , "ButterPecan"};
+		String biscuits[] = {"JimJam" , "Tiger" , "Oreo" , "Bounce" , "Darkfantesy" , "Magix" , "BourBon" , "Treat" , "20-20" , "Unibic" , "50-50" , "Monaco" , "ParleG" , "Karckjack" , "HappyHappy"};
+		String perfumes[] = {"WildStone" , "Denver" , "Fogg" , "Bellavita" , "Signature" , "Black" , "Villain" , "ModestMimosa" , "Chanel" , "CEO" , "London" , "ParkAvenue" , "Filoor" , "DE Blue" , "Paris" , "Twilly"};
+		String coolDrinks[] = {"Coca-Cola" , "Pepsi" , "Sprite" , "Thums Up" , "Fanta" , "Limca" , "7Up" , "Mountain Dew" , "String" , "Acti-Vti" , "Appletiser" , "Belvoir" , "Bos" , "Charitea" , "Dash Water"};
+		String alcohols[] = {"Bacardi" , "Captai Morgan" , "Smirnoff" , "Jack Daniel" , "Glenfiddich" , "Baileys Irish Cream" , "Kingfisher" , "Benedictine" , "Kahlua" , "Rum" , "Amarula" , "Royal Stag" , "Hennessy" , "Malibu" , "Boilo"};
+		String homeAppliances[] = {"Vacuum Cleaner" , "Hair Dryer" , "Iron" ,"Fan" , "DishWasher" , "AirConditioner" , "Blender" , "Juicer" , "Sandwich maker" , "Oven" , "Refrigerator" , "Toast Machine" , "Kettle" , "VacuumCleaner" , "Lamp" , "Microwave" , "CoffeMachine" , "Television" , "Pressure Cooker" , "Sofa"};
+		String milkProducts[] = {"Butter" , "Cheese" , "Yogurt" , "IceCream" , "Whipped Cream" , "Heta" , "Ghee" , "Soft Cheese" , "Custard" , "Kefir" , "SourCream" , "Roquefort" , "Camembert" , "Swiss Cheese" , "Brie"};
+			System.out.println("Available Stock Items are :" + groceries[0]+ " , " + groceries[1]+ " , "+ groceries[2]+ " , "+ groceries[3]+ " , " +groceries[4]+ " , " +groceries[5]+ " , " +groceries[6]+ " , "+groceries[7]+ " , "+groceries[8]+ " , "+groceries[9]+ " , "+groceries[10]+ " , "+groceries[11]+ " , "+groceries[12]);
+			System.out.println("Available Stock Items are :" + vegitables[0]+ " , " + vegitables[1]+ " , "+ vegitables[2]+ " , "+ vegitables[3]+ " , " +vegitables[4]+ " , " +vegitables[5]+ " , " +vegitables[6]+ " , "+vegitables[7]+ " , "+vegitables[8]+ " , "+vegitables[9]+ " , "+vegitables[10]+ " , "+vegitables[11]+ " , "+vegitables[12]+ " , "+vegitables[13]+ " , "+vegitables[14]);
+			System.out.println("Available Stock Items are :" + snacks[0]+ " , " + snacks[1]+ " , "+ snacks[2]+ " , "+ snacks[3]+ " , " +snacks[4]+ " , " +snacks[5]+ " , " +snacks[6]+ " , "+snacks[7]+ " , "+snacks[8]+ " , "+snacks[9]+ " , "+snacks[10]+ " , "+snacks[11]+ " , "+snacks[12]+ " , "+snacks[13]+ " , "+snacks[14]);
+			System.out.println("Available Stock Items are :" + fruits[0]+ " , " + fruits[1]+ " , "+ fruits[2]+ " , "+ fruits[3]+ " , " +fruits[4]+ " , " +fruits[5]+ " , " +fruits[6]+ " , "+fruits[7]+ " , "+fruits[8]+ " , "+fruits[9]+ " , "+fruits[10]+ " , "+fruits[11]+ " , "+fruits[12]+ " , "+fruits[13]+ " , "+fruits[14]);
+			System.out.println("Available Stock Items are :" + cosmetics[0]+ " , " + cosmetics[1]+ " , "+ cosmetics[2]+ " , "+ cosmetics[3]+ " , " +cosmetics[4]+ " , " +cosmetics[5]+ " , " +cosmetics[6]+ " , "+cosmetics[7]+ " , "+cosmetics[8]+ " , "+cosmetics[9]+ " , "+cosmetics[10]+ " , "+cosmetics[11]+ " , "+cosmetics[12]+ " , "+cosmetics[13]+ " , "+cosmetics[14]);
+			System.out.println("Available Stock Items are :" + chocolates[0]+ " , " + chocolates[1]+ " , "+ chocolates[2]+ " , "+ chocolates[3]+ " , " +chocolates[4]+ " , " +chocolates[5]+ " , " +chocolates[6]+ " , "+chocolates[7]+ " , "+chocolates[8]+ " , "+chocolates[9]+ " , "+chocolates[10]+ " , "+chocolates[11]+ " , "+chocolates[12]+ " , "+chocolates[13]+ " , "+chocolates[14]);
+			System.out.println("Available Stock Items are :" + icecreams[0]+ " , " + icecreams[1]+ " , "+ icecreams[2]+ " , "+ icecreams[3]+ " , " +icecreams[4]+ " , " +icecreams[5]+ " , " +icecreams[6]+ " , "+icecreams[7]+ " , "+icecreams[8]+ " , "+icecreams[9]+ " , "+icecreams[10]+ " , "+icecreams[11]+ " , "+icecreams[12]+ " , "+icecreams[13]+ " , "+icecreams[14]);
+			System.out.println("Available Stock Items are :" + biscuits[0]+ " , " + biscuits[1]+ " , "+ biscuits[2]+ " , "+ biscuits[3]+ " , " +biscuits[4]+ " , " +biscuits[5]+ " , " +biscuits[6]+ " , "+biscuits[7]+ " , "+biscuits[8]+ " , "+biscuits[9]+ " , "+biscuits[10]+ " , "+biscuits[11]+ " , "+biscuits[12]+ " , "+biscuits[13]+ " , "+biscuits[14]);
+			System.out.println("Available Stock Items are :" + perfumes[0]+ " , " + perfumes[1]+ " , "+ perfumes[2]+ " , "+ perfumes[3]+ " , " +perfumes[4]+ " , " +perfumes[5]+ " , " +perfumes[6]+ " , "+perfumes[7]+ " , "+perfumes[8]+ " , "+perfumes[9]+ " , "+perfumes[10]+ " , "+perfumes[11]+ " , "+perfumes[12]+ " , "+perfumes[13]+ " , "+perfumes[14]);
+			System.out.println("Available Stock Items are :" + coolDrinks[0]+ " , " + coolDrinks[1]+ " , "+ coolDrinks[2]+ " , "+ coolDrinks[3]+ " , " +coolDrinks[4]+ " , " +coolDrinks[5]+ " , " +coolDrinks[6]+ " , "+coolDrinks[7]+ " , "+coolDrinks[8]+ " , "+coolDrinks[9]+ " , "+coolDrinks[10]+ " , "+coolDrinks[11]+ " , "+coolDrinks[12]+ " , "+coolDrinks[13]+ " , "+coolDrinks[14]);
+			System.out.println("Available Stock Items are :" + alcohols[0]+ " , " + alcohols[1]+ " , "+ alcohols[2]+ " , "+ alcohols[3]+ " , " +alcohols[4]+ " , " +alcohols[5]+ " , " +alcohols[6]+ " , "+alcohols[7]+ " , "+alcohols[8]+ " , "+alcohols[9]+ " , "+alcohols[10]+ " , "+alcohols[11]+ " , "+alcohols[12]+ " , "+alcohols[13]+ " , "+alcohols[14]);
+			System.out.println("Available Stock Items are :" + homeAppliances[0]+ " , " + homeAppliances[1]+ " , "+ homeAppliances[2]+ " , "+ homeAppliances[3]+ " , " +homeAppliances[4]+ " , " +homeAppliances[5]+ " , " +homeAppliances[6]+ " , "+homeAppliances[7]+ " , "+homeAppliances[8]+ " , "+homeAppliances[9]+ " , "+homeAppliances[10]+ " , "+homeAppliances[11]+ " , "+homeAppliances[12]+ " , "+homeAppliances[13]+ " , "+homeAppliances[14]);
+			System.out.println("Available Stock Items are :" + milkProducts[0]+ " , " + milkProducts[1]+ " , "+ milkProducts[2]+ " , "+ milkProducts[3]+ " , " +milkProducts[4]+ " , " +milkProducts[5]+ " , " +milkProducts[6]+ " , "+milkProducts[7]+ " , "+milkProducts[8]+ " , "+milkProducts[9]+ " , "+milkProducts[10]+ " , "+milkProducts[11]+ " , "+milkProducts[12]+ " , "+milkProducts[13]+ " , "+milkProducts[14]);
+			
+	System.out.println("Main Ended");
+	}
+}
