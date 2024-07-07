@@ -1,17 +1,13 @@
 class Stationary{
-	public static void main(String[] item){
-		System.out.println("Main started");
-		
-		String name = "Signature Store";
-		
-		String items[] = {"Paper","Scissors","Stapler","Folder","Marker","Paperclips Pen","Highlighter","Highlighters","Notebook","Pencils","Sticky Notes","Calculator","Desk accessories","Eraser","Envelopes"};
-		
-		System.out.println("The Shop Name is "+name);
-		System.out.println("*****");
-		System.out.println("Available Items are\n"+items[0]+"\n"+items[1]+"\n"+items[2]+"\n"+items[3]+"\n"+items[4]+"\n"+items[5]+"\n"+items[6]+"\n"+items[7]+"\n"+items[8]+"\n"+items[9]+"\n"+items[10]+"\n"+items[11]+"\n"+items[12]+"\n"+items[13]+"\n"+items[14]);
-		System.out.println("*****");
-		
-		System.out.println("Main ended");
+	static String stationaryName = "Sai Books Store";
+	static String itemMenus[] = {"Marker", "Rubber Stamp" , "Eraser" , "PushPin" , "BallPointPen" , "Sticky Notes" , "EnvelopeCover" , "Highlighter" , "Clipboard" , "PaperClips" , "Scissors" , "Bulldog Clip" , "PencilSharpener" , "Calculator" , "Stapler" , "Pencils" , "Scale" , "Fevicol" , "Sticker" , "InkPot" , "Geometry Box"};
+	public static void main(String[] items){
+		System.out.println("Main Started");
+			for(String itemMenu : itemMenus){
+				System.out.println(itemMenu);
+			}
+				//System.out.println("Stationary Menu list are :" +itemMenus[0]+ " \n " +itemMenus[1]+ " \n " +itemMenus[2]+ " \n " +itemMenus[3]+ " \n " +itemMenus[4]+ " \n " +itemMenus[5]+ " \n " +itemMenus[6]+ " \n " +itemMenus[7]+ " \n " +itemMenus[8]+ " \n " +itemMenus[9]+ " \n " +itemMenus[10]+ " \n " +itemMenus[11]+ " \n " +itemMenus[12]+ " \n " +itemMenus[13]+ " \n " +itemMenus[14]+ " \n " +itemMenus[15]+ " \n " +itemMenus[16]+ " \n " +itemMenus[17]+ " \n " +itemMenus[18]+ " \n " +itemMenus[19]);
+		System.out.println("Main Ended");
 		
 	}
 }
