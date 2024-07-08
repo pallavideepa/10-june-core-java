@@ -1,22 +1,10 @@
 class Camera{
 
-	public static void main(String[] cpPlus){
-		System.out.println("Main Started");
-			//invoke a method 
-			//callmethod
-			getFeatures();
-		System.out.println("Main Ended");
-	}
-	public static void getFeatures(){
-		System.out.println("getFeatures method started");
-			//local variable
-			String brand = "CP PLUS";
-			String modelName = "CP";
-			String connectivityTechnology = "Wireless";
-				System.out.println("The Brand Name is " + brand);
-				System.out.println("The Model Name is " + modelName);
-				System.out.println("The Connectivity Technology is used " + connectivityTechnology);
-		System.out.println("getFeatures method ended");
-		return;
+	public static void captureImage(){
+	
+		
+			System.out.println("A camera is an instrument used to capture and store images and videos, either digitally via an electronic image sensor, or chemically via a light-sensitive material such as photographic film.");
+		
+	return;
 	}
 }
