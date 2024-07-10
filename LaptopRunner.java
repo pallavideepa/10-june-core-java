@@ -2,8 +2,10 @@ class LaptopRunner{
 
 	public static void main(String[] args){
 		System.out.println("main started");
-		Speaker.switchOn();
-		Speaker.switchOff();
+		boolean connect = Laptop.onOrOff();
+		System.out.println("is laptop connected:" + connect);
+		connect = Laptop.onOrOff();
+		System.out.println("is laptop connected:" + connect);
 		System.out.println("main ended");
 	}
 }

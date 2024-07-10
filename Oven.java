@@ -1,4 +1,4 @@
-class WashingMachine {
+class Oven {
 		static boolean isConnected = false ;
 		public static boolean onOrOff(){
 			System.out.println("start of onOrOff");

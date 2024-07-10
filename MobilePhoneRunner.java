@@ -2,8 +2,10 @@ class MobilePhoneRunner{
 
 	public static void main(String[] args){
 		System.out.println("main started");
-		Speaker.switchOn();
-		Speaker.switchOff();
+		boolean connect = MobilePhone.onOrOff();
+		System.out.println("is mobile phone connected:" + connect);
+		connect = MobilePhone.onOrOff();
+		System.out.println("is mobile phone connected:" + connect);
 		System.out.println("main ended");
 	}
 }
