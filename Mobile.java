@@ -1,4 +1,4 @@
-class Laptop{
+class Mobile{
 
 	static boolean isDisplayOn = false ;
 	static int maxZoom = 5;
@@ -10,6 +10,7 @@ class Laptop{
 		System.out.println("Start of onOrOff method");
 		
 		isDisplayOn = (isDisplayOn == false) ? true : false;
+		
 		System.out.println("End of onOrOff method");
 	return isDisplayOn;
 	}
@@ -21,7 +22,7 @@ class Laptop{
 					currentZoom = currentZoom + 1;
 					System.out.println("Current Zoom is "+ currentZoom);
 				}else System.out.println("Maximum Zoom reached");
-			}else System.out.println("Turn on the Laptop");
+			}else System.out.println("Turn on the Mobile");
 
 		System.out.println("End of increase zoom method");
 	return;
@@ -33,7 +34,7 @@ class Laptop{
 					currentZoom = currentZoom - 1;
 					System.out.println("Current zoom is "+ currentZoom);
 				}else System.out.println("Minimum zoom reached");
-			}else System.out.println("Turn on the Laptop ");
+			}else System.out.println("Turn on the Mobile ");
 		System.out.println("End of decrease zoom method");
 	return;
 	}
