@@ -31,8 +31,17 @@ class TouristCompanyRunner{
 		touristPlaceNameAdded = TouristCompany.addtouristPlaceNames("Bangalore");
 		System.out.println("Product names added " +touristPlaceNameAdded);
 		
-		touristPlaceNameAdded = TouristCompany.addtouristPlaceNames("Mandya");
-		System.out.println("Product names added " +touristPlaceNameAdded);
+		TouristCompany.readtouristPlaceNames();
+		
+		
+		boolean touristPlaceNameUpdate = TouristCompany.updateTouristPlaceName("Bangalore" , "kashmir");
+		System.out.println("Tourist Place Name is updated" + touristPlaceNameUpdate);
+		
+		TouristCompany.readtouristPlaceNames();
+		
+		boolean touristPlaceNameDelete = TouristCompany.deleteTouristPlaceName("Hampi");
+		System.out.println("Tourist Place Name is Deleted" +touristPlaceNameDelete);
+		
 		
 		TouristCompany.readtouristPlaceNames();
 		System.out.println("Main Ended");

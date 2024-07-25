@@ -22,7 +22,7 @@ class AmazonRunner{
 		produtAdded = Amazon.addProdutNames("Charger");
 		System.out.println("Product names added " +produtAdded);
 		
-		produtAdded = Amazon.addProdutNames("Water Botell");
+		produtAdded = Amazon.addProdutNames("Water Bottle");
 		System.out.println("Product names added " +produtAdded);
 		
 		produtAdded = Amazon.addProdutNames("Laptop");
@@ -31,10 +31,19 @@ class AmazonRunner{
 		produtAdded = Amazon.addProdutNames("Mouse");
 		System.out.println("Product names added " +produtAdded);
 		
-		produtAdded = Amazon.addProdutNames("Printer");
-		System.out.println("Product names added " +produtAdded);
+		Amazon.readProdutName();
+		
+		boolean produtUpdate = Amazon.updateProdutName("Smart watch" , "Mobile");
+		System.out.println("Product Name is updated" + produtUpdate);
 		
 		Amazon.readProdutName();
+		
+		boolean produtDelete = Amazon.deleteProdutName("Water Bottle");
+		System.out.println("Product Name is Deleted" +produtDelete);
+		
+		Amazon.readProdutName();
+		
+		
 		System.out.println("Main Ended");
 	}
 }

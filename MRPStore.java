@@ -1,3 +1,4 @@
+import java.util.*;
 class MRPStore{
 static String  alcoholNames[] = {null,null,null,null,null,null,null,null,null,null};
 	static int start;
@@ -20,5 +21,38 @@ static String  alcoholNames[] = {null,null,null,null,null,null,null,null,null,nu
 			for(String alcoholName : alcoholNames){
 				System.out.println(alcoholName);
 			}
+		}
+		public static boolean updatealcoholNames(String newAlcohoName , String oldAlcoholName){
+			System.out.println("Update method is Started");
+			boolean isUpdateAlcoholNames = false;
+			for(int ref=0; ref<alcoholNames.length;ref++){
+				if(alcoholNames[ref] == oldAlcoholName){
+					alcoholNames[ref] = newAlcohoName;
+					isUpdateAlcoholNames = true;
+				}
+			}
+			if(isUpdateAlcoholNames==false)
+				System.out.println(oldAlcoholName + "not found");
+			System.out.println("Update method is Ended");
+		return isUpdateAlcoholNames;
+		}
+		public static boolean deletealcoholNames(String alcoholName){
+			boolean isDeleteAlcoholName = false;
+			int ref , newRef;
+			for(ref=0 , newRef=0; ref<alcoholNames.length; ref++){
+				if(alcoholNames[ref] != alcoholName){
+					alcoholNames[newRef] = alcoholNames[ref];
+					newRef++;
+				}
+				else
+					isDeleteAlcoholName = true;
+			}
+			int newlength = newRef;
+			alcoholNames = Arrays.copyOf(alcoholNames , newlength);
+			
+			if(isDeleteAlcoholName == false){
+				System.out.println(alcoholNames + "not found");
+			}
+		return isDeleteAlcoholName;
 		}
 }
