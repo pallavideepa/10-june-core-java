@@ -1,0 +1,256 @@
+1.a)public static void main(String args[])
+->public-is a access specifier
+->static-is a non access specifier
+->void -is a return type
+->main-is a method name
+->inside the parenthesis we declare the parameters
+
+1.b)class-class is a template,design or a plan that contains both states and behaviour.
+    object-object is a instance of a class (or) it is a real worls physical entity.
+
+1.c)JVM,JRE,JDK
+
+*JVM-jvm refers to java virtual machine.
+-it will provide a runtime environment
+this performs 3 functions:
+loads the code 
+verifies the code
+execute the code stream line by line
+
+*JRE-jre refers to java runtime environment
+-it contains jvm +set of libraries
+-it is a run time environment that is required to execute the byte code.
+
+
+*JDK-jdk refers to java development kit
+-it contains jre and inside that it also contains the jvm and set of libraries.
+-this contains necessary resource to compile and used to execute java based application program.
+
+
+2.Constructor:
+It is a special type of method, where name of the class is same as the name of the constructor and it has no return type in it.
+
+constructor is used to initialize the instance variable of the class.
+
+there are 2 types of constructor:
+a)Default Constructor
+b)Parameterized Constructor
+
+Default constructor takes no arguments in it and it initializes object with the default values.
+Parameterized constructor takes arguments to initia
+A parameterized constructor in Java is a constructor that takes arguments to initialize an object with specific values
+
+class Bank{
+	int id;
+	String name;
+	String branchName;
+	String ifscCode;
+	String swiftCode;
+	int noOfWorker;
+	String branchManager;
+	
+	public Bank(){
+		System.out.println("Bank details created");
+	}
+	public Bank(int id,String name,String branchName,String ifscCode,String swiftCode,int noOfWorker,String branchManager){
+		this.id=id;
+		this.name=name;
+		this.branchName=branchName;
+		this.ifscCode=ifscCode;
+		this.swiftCode=swiftCode;
+		this.noOfWorker=noOfWorker;
+		this.branchManager=branchManager;
+	}
+}
+
+class BankRunner{
+	public static void main(String[] args){
+		Bank ref =new Bank(1,"IOB Bank","Lingadahalli","IOBA10012","Indian Overseas Bank", 25 ,"Pallavi");
+		System.out.println("Bank details strated");
+		System.out.println("Bank ID is " +ref.id);
+		System.out.println("Bank name "+ref.name);
+		System.out.println("Bank Branch "+ref.branchName);
+		System.out.println("IFSC code "+ref.ifscCode);
+		System.out.println("Swift code "+ref.swiftCode);
+		System.out.println("Worker is bank "+ref.noOfWorker);
+		System.out.println("Bank Manager name is "+ref.branchManager);
+		System.out.println("Bank details ended");
+	}
+}
+
+3. this keyword and this():
+
+->keyword:it is the reserved/pre-defined words
+->this:it refers to the current instance of a class, when there is a same name for the local variable and instance variable this keyword is being used.
+->this():it is used to call another constructor within the same class.
+
+
+4.main method is static because it allows jvm to call it without need to create the object of a class and jvm always look for the main method to compile the program.
+
+*method:It is a block of code which is used to perform the certain functionality
+
+* Methods is used for Code Reusibility
+
+Syntax for Methods:
+<access specifier>returnType methodName(parameters......){
+//block of code
+}
+
+Example for methods:
+class Substraction{
+	public static void main(String[]  subtracting){
+		System.out.println("Main Started");
+			sub(45 , 23);
+			sub(785 , 235);
+		//sub();
+		System.out.println("Main Ended");
+	}
+	public static void sub(int num1 , int num2){
+		System.out.println("Sub method Started");
+			System.out.println(num1 - num2);
+		System.out.println("Sub method Ended");
+	return;
+	}
+
+}
+
+Types of Method
+a) Static Method
+b)Instance Method
+
+
+a)static method
+
+b)instance method
+
+class Bicycle{
+
+	public static void main(String args[]){
+		System.out.println("Main Started");
+			getFeatures();
+		System.out.println("Main Ended");
+	}
+	public static void getFeatures(){
+		System.out.println("getFeatures mathod started");
+			String bikeType = "Mountain Bike";
+			String ageRange = "Adult";
+			String brand = "Urban Terrain";
+			int numberOfSpeeds = 1;
+			String color = "White, Blue";
+			System.out.println("The Bike Type is " + bikeType);
+			System.out.println("The Age Range is " + ageRange);
+			System.out.println("The Brand Name is " + brand);
+			System.out.println("The Number Of Speed is " + numberOfSpeeds);
+			System.out.println("The Color of Cycle " + color);
+		System.out.println("getFeatures method ended");
+		return;
+	}
+}
+
+
+6.reverse domain in package
+->commercial:this can be accessed by anyone
+->organization:this can be accessed only by the orginised people 
+
+7.class Number{
+import java.util.*; 
+  
+public class Main { 
+    public static void main(String[] args) 
+    { 
+        int[] int_arr = { 1, 2, 3, 4, 5, 6, 7 }; 
+      
+        System.out.print("Integer Array: [ "); 
+        for (int c : int_arr) { 
+            System.out.print(c + " "); 
+            ii++; 
+        } 
+        System.out.println("]"); 
+        System.out.println("]\n"); 
+        System.out.println("Size of integer array = " + ii); 
+       
+    } 
+}
+
+8.no, we can not use instance variable inside the static method 
+static methods cannot directly access the instance variable because 
+the static methods can be called even when the objects of the class has been initiated
+
+9.polymorphism
+it is an object and the ability to take many forms.
+public class Engineering {
+    public void solveProblem(){
+        System.out.println("Solved complex problem by Engineer");
+    }
+
+public class MarineEngineering extends Engineering {
+    @Override
+    public void solveProblem() {
+        System.out.println("Solved complex problem by Marine Engineer");
+    }
+}
+public class EngineeringRunner {
+    public static void main(String[] args) {
+        //Parent ref = new Child();
+        Engineering ref = new MarineEngineering();
+        ref.solveProblem();
+}
+}
+
+
+10.inheritance
+this allows the child class to inherit the properties from the parent class.
+
+example:public class Hospital {
+    Patient patient;
+    public  boolean addPatient(Patient patient){
+        boolean isPatientAdded = false;
+
+        if(patient!=null){
+            if(patient.patientName!=null )
+                this.patient=patient;
+            isPatientAdded = true;
+        }
+
+        return  isPatientAdded;
+    }
+
+    public void getPatient(){
+        System.out.println("Fetching Patient Info.........");
+        System.out.println("The Patient Name is " + this.patient.patientName);
+        System.out.println("The Patient Gender is " + this.patient.gender);
+        System.out.println("The Patient Blood Group is " + this.patient.bloodGroup);
+        System.out.println("The Patient Age is " + this.patient.age);
+        System.out.println("The Patient Id is " + this.patient.patientId);
+        System.out.println("The Patient Address is ");
+        this.patient.displayPatientAddress();
+    }
+    public boolean uppdatePatientAge(int newAge){
+        System.out.println("updating patient age....");
+        boolean isNewAge = false;
+        if(newAge>0){
+            this.patient.age = newAge;
+            isNewAge = true;
+        }
+        return isNewAge;
+    }
+    public boolean updatePatientName(String newName){
+        System.out.println("updating patient name...");
+        boolean isNewName = false;
+        if(newName!=null){
+            this.patient.patientName=newName;
+            isNewName = true;
+        }
+        return isNewName;
+    }
+  public boolean admissionRequired;
+              public boolean addPatient(Patient patient){
+                  boolean isAdded = false;
+                  System.out.println("child class addPatient started");
+                  if(admissionRequired == true)
+                      isAdded = super.addPatient(patient);
+                  else System.out.println("First pay the amount");
+                  System.out.println("child class addPatient ended");
+                  return isAdded;
+    }
+
